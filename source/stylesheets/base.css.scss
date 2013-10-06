@@ -94,6 +94,15 @@ div.articles {
     border-color: #e1e1e1;
     border-style: dotted;     
   }
+  h3 a{
+    color: #ef3e42;
+  }
+
+  .secondary.button {
+    background-color: #00aaa1;
+    color: white;
+  }
+
 }  
 
 ul.read_next {                
@@ -132,6 +141,11 @@ aside {
 
   ul.tags li {
     display: inline;
+
+    a.tiny.button.secondary.round {
+        background-color: #00aaa1;
+        color: white;
+     } 
   }
 }
 
@@ -141,7 +155,8 @@ aside {
 }
 
 body.portfolio {
-  .top-bar-section ul li.portfolio > a { color: $primary-color; }
+  .top-bar-section ul li.portfolio > a { color: #ff9200;  
+  }
 }
 
 body.resume {
@@ -149,7 +164,7 @@ body.resume {
 }
 
 body.blog {
-  .top-bar-section ul li.blog > a { color: $primary-color; }
+  .top-bar-section ul li.blog > a { color: #ff9200; }
 }
 
 .main {
@@ -157,6 +172,10 @@ body.blog {
 
   .content {
     @include grid-column(12);
+
+    article h3 {
+    color: #ef3e42;
+    } 
   }
 }
 
@@ -167,6 +186,12 @@ footer {
 
   text-align: center;
   font-size: 0.8em;
+  color: #ef3e42;
+
+  a {
+    color: #ef3e42;
+    font-weight: bold;
+  }
 }
 
 @include sticky-footer(30px);

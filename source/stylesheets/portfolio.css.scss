@@ -4,6 +4,12 @@ $project-screenshot-left-margin: -22px;
 
 @import "theme";
 
+.main {
+  .content h2 {
+  color: #ef3e42;
+  }
+}
+
 .project {
   @include grid-row;
   margin-bottom: 30px;

@@ -1,17 +1,6 @@
 - 
-  name: MakerSquare
-  url: http://themakersquare.com
-  screenshot: makersquare-screenshot.png
+  name: bringup
+  url: http://bringup-dev.herokuapp.com
+  screenshot: bringup.jpg
   featured: true
-  description: |
-                 MakerSquare is a full-time, ten week program that turns you into a web developer.
-- 
-  name: RailsGirls ATX
-  url: http://railsgirlsatx.org
-  source_link: http://github.com/railsgirlsatx/site
-  screenshot: railsgirls-screenshot.png
-  featured: false
-  description: |
-                 This is a very long description.
-
-                 It has multiple paragraphs.    
+  description: 

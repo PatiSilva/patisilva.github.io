@@ -4,8 +4,8 @@
 @import "compass/css3/transform";
 @import "foundation_and_overrides";
 
-$bio-background-color: $primary-color;
-$bio-foreground-color: #000;
+$bio-background-color: #ff6666;
+$bio-foreground-color: white;
 $profile-image-size: 200px;
 $featured-content-header-font-size: 1.6em;
 $project-screenshot-left-margin: -22px;
@@ -42,10 +42,14 @@ $project-screenshot-left-margin: -22px;
 section.latest-from-blog, section.featured-project {
   h2 {
     font-size: $featured-content-header-font-size;
+    color: #ef3e42; 
   }
 
   h3 {
     font-size: $featured-content-header-font-size - 0.4em;
+  }
+  a {
+  color: #00aaa1; 
   }
 }
 

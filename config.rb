@@ -19,10 +19,10 @@ activate :sprockets
 ## Site-wide settings
 ####
 
-set :full_name, "Ada Lovelace"
-set :city, "London, England"
+set :full_name, "Patricia Silva"
+set :city, "Austin, TX"
 set :resume, nil # Set to filename of resume PDF in source directory.
-set :google_analytics_tracking_id, "UA-111111111-11"
+set :google_analytics_tracking_id, "UA-111111111-11" #get from Google Analytics
 
 ###
 ## Social network link settings
@@ -33,13 +33,13 @@ set :google_analytics_tracking_id, "UA-111111111-11"
 # This is the id for your profile URL: https://plus.google.com/https://plus.google.com/110506932842622114536/
 set :google_plus_user_id, "110506932842622114536"
 # This is your shortname for your profile URL: http://facebook.com/ada.lovelace
-set :facebook_profile_name, "ada.lovelace"
-set :twitter_username, "ada"
+set :facebook_profile_name, nil
+set :twitter_username, "mariquitasilva"
 # This is your shortname for your profile URL: http://linkedin.com/in/adalovelace
-set :linkedin_profile_name, "adalovelace"
-set :dribbble_username, "adalovelace"
-set :github_username, "ada"
-set :gravatar_email_address, "me@adalovelace.com"
+set :linkedin_profile_name, nil
+set :dribbble_username, nil
+set :github_username, "PatiSilva"
+set :gravatar_email_address, "pscorreo@gmail.com"
 
 Time.zone = "America/Chicago"
 
@@ -48,7 +48,7 @@ Time.zone = "America/Chicago"
 ## Blog settings
 ###
 
-set :disqus_shortname, "adas-blog"
+set :disqus_shortname, "patis-blog"
 
 activate :blog do |blog|
   blog.prefix = "/blog"
